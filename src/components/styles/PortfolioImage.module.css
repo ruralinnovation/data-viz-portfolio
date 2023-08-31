@@ -1,8 +1,9 @@
 .portfolio-image {
-	max-width: 98%;
+	max-width: 90%;
 	max-height: 1200px;
 	border: 1px solid dimgray;
 	border-radius: 5px;
-	margin-bottom: 10px;
-/*	object-fit: cover*/
+	margin-bottom: 8%;
+
+	object-fit: contain;
 }

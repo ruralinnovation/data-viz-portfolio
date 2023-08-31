@@ -15,7 +15,8 @@ export default function PortolioImage({src, alt}) {
     left:"0",
     right:"0",
     top: "1%",
-    margin:"auto"
+    margin:"auto",
+    border: "none"
 
   };
 
