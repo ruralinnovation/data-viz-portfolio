@@ -1,0 +1,9 @@
+.grid-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.grid-container div {
+	max-width: 100%;
+}
