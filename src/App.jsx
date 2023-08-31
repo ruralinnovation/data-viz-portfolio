@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import PortfolioImage from "./components/PortfolioImage.jsx";
@@ -14,7 +13,6 @@ import {
   RaceChange,
   NonmetroPlusChange,
   CommunityConnectedness,
-  RuralPlaces,
   VennDiagram,
   // Maps
   HistoricMexico,
@@ -44,7 +42,7 @@ let right_graphic_content = (
     <PortfolioImage src={WhiteRuralityAge} alt={alt_text} />
     <PortfolioImage src={RaceChange} alt={alt_text} />
     <PortfolioImage src={HispChangeByState} alt={alt_text} />
-    <PortfolioImage src={RuralPlaces} alt={alt_text} />
+    <PortfolioImage src={NonmetroPlusChange} alt={alt_text} />
   </>
 );
 

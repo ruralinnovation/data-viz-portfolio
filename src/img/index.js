@@ -8,7 +8,6 @@ import RaceByRegion from './viz/fig_4_race_aoic_share_by_region.png';
 import RaceChange from './viz/fig_6_rural_race_change_2010_2020.png';
 import NonmetroPlusChange from './viz/fig_7_nonmetro_nonmetroplus_pct_change_edit.png';
 import CommunityConnectedness from './viz/fig_9_community_connectedness-1.png';
-import RuralPlaces from './viz/rural_places.svg';
 import VennDiagram from './viz/venn_diagram.svg';
 // Maps
 // import HispanicInfographic from './maps/fig_10_hispanic_or_latino_infographic.png';
@@ -30,7 +29,6 @@ export {
   RaceChange,
   NonmetroPlusChange,
   CommunityConnectedness,
-  RuralPlaces,
   VennDiagram,
   // Maps
   HistoricMexico,
