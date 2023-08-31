@@ -2,6 +2,7 @@ import './App.css';
 
 import PortfolioImage from "./components/PortfolioImage.jsx";
 import GridContainer from "./components/GridContainer.jsx";
+import ResponsiveIframe from "./components/ResponsiveIframe.jsx";
 
 import {
   HispSelfIdentify,
@@ -82,9 +83,20 @@ function App() {
         <h2>Graphics</h2>
         <GridContainer left_content={left_graphic_content} right_content={right_graphic_content} />
       </div>
-      <div>
+      <div class="interactives">
         <h2>Interactives</h2>
-        <div></div>
+        <ResponsiveIframe
+          src="https://ruralinnovation.github.io/rap-web-interactives/automation.html"
+          padding_top="61.437908496%"
+        />
+        <ResponsiveIframe
+          src="https://ruralinnovation.github.io/racial-ethnic-dot-density/"
+          padding_top="70%" //"75.223090592%"
+        />
+        <ResponsiveIframe
+          src="https://ruralinnovation.github.io/rap-web-interactives/tech_employment.html"
+          padding_top="35.443510737%"
+        />
       </div>
     </div>
   );
