@@ -3,6 +3,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */

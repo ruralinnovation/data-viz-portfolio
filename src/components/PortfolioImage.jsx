@@ -8,7 +8,6 @@ export default function PortolioImage({src, alt}) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const expand_style = {
-    // transform: `scale(2)`,
     height: "98%",
     display: "block",
     position: "fixed",
@@ -16,7 +15,8 @@ export default function PortolioImage({src, alt}) {
     right:"0",
     top: "1%",
     margin:"auto",
-    border: "none"
+    border: "none",
+    zIndex: 11
 
   };
 
@@ -29,18 +29,17 @@ export default function PortolioImage({src, alt}) {
     right:"0",
     top: "0",
     margin:"auto",
-    backgroundColor: "rgba(208, 210, 206, 1)"
+    backgroundColor: "rgba(208, 210, 206, 1)",
+    zIndex: 10
   }
-
-  const default_style = {};
 
   function enlargeImage(e) {
 
     let new_value = !isExpanded;
 
     setIsExpanded(new_value);
-    setImgStyles(new_value === true? expand_style: default_style);
-    setWrapperStyles(new_value === true? wrapper_styles: default_style);
+    setImgStyles(new_value === true? expand_style: {});
+    setWrapperStyles(new_value === true? wrapper_styles: {});
   }
 
   const escFunction = useCallback((event) => {
@@ -48,8 +47,8 @@ export default function PortolioImage({src, alt}) {
     if (event.key === "Escape") {
       console.log("IN here???");
       setIsExpanded(false);
-      setImgStyles(default_style);
-      setWrapperStyles(default_style);
+      setImgStyles({});
+      setWrapperStyles({});
     }
   }, []);
 
