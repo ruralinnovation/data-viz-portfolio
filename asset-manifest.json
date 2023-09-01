@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/data-viz-portfolio/static/css/main.e38c1bca.css",
-    "main.js": "/data-viz-portfolio/static/js/main.53107bb6.js",
+    "main.css": "/data-viz-portfolio/static/css/main.65cd8900.css",
+    "main.js": "/data-viz-portfolio/static/js/main.5f40b90c.js",
     "static/js/787.8fae6ce6.chunk.js": "/data-viz-portfolio/static/js/787.8fae6ce6.chunk.js",
     "static/media/fig_12_map_historic_mexico_boundaries.png": "/data-viz-portfolio/static/media/fig_12_map_historic_mexico_boundaries.19d7afd5619ada0455de.png",
     "static/media/fig_19_aian_on_near_distant_combo.png": "/data-viz-portfolio/static/media/fig_19_aian_on_near_distant_combo.3526f7c56dc488220fab.png",
@@ -20,12 +20,12 @@
     "static/media/fig_14_hisp_self_identify-1.png": "/data-viz-portfolio/static/media/fig_14_hisp_self_identify-1.6b15153c5a9167423cae.png",
     "static/media/fig_7_nonmetro_nonmetroplus_pct_change_edit.png": "/data-viz-portfolio/static/media/fig_7_nonmetro_nonmetroplus_pct_change_edit.77bf5b9e396d55a79ea4.png",
     "index.html": "/data-viz-portfolio/index.html",
-    "main.e38c1bca.css.map": "/data-viz-portfolio/static/css/main.e38c1bca.css.map",
-    "main.53107bb6.js.map": "/data-viz-portfolio/static/js/main.53107bb6.js.map",
+    "main.65cd8900.css.map": "/data-viz-portfolio/static/css/main.65cd8900.css.map",
+    "main.5f40b90c.js.map": "/data-viz-portfolio/static/js/main.5f40b90c.js.map",
     "787.8fae6ce6.chunk.js.map": "/data-viz-portfolio/static/js/787.8fae6ce6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38c1bca.css",
-    "static/js/main.53107bb6.js"
+    "static/css/main.65cd8900.css",
+    "static/js/main.5f40b90c.js"
   ]
 }
